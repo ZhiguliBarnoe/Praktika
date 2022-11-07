@@ -1,0 +1,16 @@
+#phonebook
+  form#search
+    input#inputSearch.form-control placeholder=("What are you looking for? ..") style=("width: 74%;") type="search" /
+    input#buttonReset.btn.btn-success disabled="" style=("width: 24%;") type="button" value="Reset" /
+  form#phonebook__form.hide   novalidate="" 
+    #phonebook__form__adder
+   
+      input#inputName.form-control autocomplete="off" placeholder=("Enter a name...") type="text" /
+      input#inputTel.form-control autocomplete="off" disabled="" placeholder=("Enter a phone...") type="tel" /
+      input#inputEmail.form-control autocomplete="off" disabled="" placeholder=("Enter an email...") type="email" 
+      input#buttonAdd.btn.btn-success disabled="" type="button" value=("Add contact") /
+      /
+  table#phonebook__result 
+    thead 
+    tbody#tbody
+    button id='btn' Add contact
